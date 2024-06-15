@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 60%;
+    height: 100vh;
+    background-color: #202020;
+    float: left;
+    position: relative;
+
+
+}
+
+h1 {
+
+    color: white;
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-align: end;
+    position: relative;
+    top: 6rem;
+    right: 4rem;
+
+
+
+}
+
+h3 {
+
+    color: #e74c3c;
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    top: 8rem;
+    right: 4.5rem;
+
+}
+
+p {
+    color: #999999;
+    font-weight: 400;
+    text-align: right;
+    line-height: 29px;
+    font-size: 14px;
+    position: relative;
+    top: 8rem;
+    right: 4.5rem;
+
+}
+
+.menu {
+
+    width: 40%;
+    height: 100vh;
+    background-color: aqua;
+    float: right;
+    background-image: url(image/Put\ Your\ Image.png);
+    background-repeat: no-repeat;
+
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 17.5rem;
+    margin: 4.5rem;
+    left: 39.5rem;
+    margin-left: 260px;
+
+    
+}
+
+img {
+    position: relative;
+    top: 0.9rem;
+    left: 0.9rem;
+
+
+}
+
+span {
+    color: #e74c3c;
+}
+
+@media (min-width: 768px) and (max-width: 1200px)
+{
+    .container{
+        
+        
+
+        
+    }
+}
